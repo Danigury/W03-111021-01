@@ -16,6 +16,10 @@ class Personaje {
   comunicar() {
     return "string";
   }
+
+  morir() {
+    estado = "Muerto";
+  }
 }
 
 export default Personaje;
